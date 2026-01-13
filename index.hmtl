@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Ecology, Epidemiology and Evolution</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mathematical Ecology, Epidemiology and Evolution</h1>
+        <h2>Evolution Notes</h2>
+        <p class="author">Dr George Constable, University of York</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#week1">Week 1: Population Models</a></li>
+            <li><a href="#stochastic">Stochastic Modelling</a></li>
+            <li><a href="#adaptive">Adaptive Dynamics</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Mathematical modeling involves abstracting reality into simplified forms that are amenable to analysis, allowing for predictions and general principles in biological systems [cite: 1715-1718].</p>
+        </section>
+
+        <section id="week1">
+            <h2>I. Week 1: Continuous-time population models</h2>
+            <p>Population dynamics studies how groups of individuals change over time due to four fundamental processes: births, deaths, immigration, and emigration [cite: 1701-1704].</p>
+            <p>The rate of change is expressed by the fundamental differential equation:</p>
+            \[ \frac{dN}{dt} = \text{birth rate} - \text{death rate} + \text{immigration rate} - \text{emigration rate} \]
+            <p>By solving this equation, we can find the population size \(N(t)\) at any given time[cite: 1705].</p>
+        </section>
+
+        <section id="stochastic">
+            <h2>II. Probabilistic and Stochastic Modelling</h2>
+            <p>Biological systems are inherently stochastic due to the unpredictable timing and outcomes of events like births and deaths[cite: 1724]. This uncertainty can be modeled using three formalisms[cite: 1725]:</p>
+            <ul>
+                <li><strong>Master Equation:</strong> Discrete state space in continuous time, governed by Kolmogorov's forward equation[cite: 1727].</li>
+                <li><strong>Fokker-Planck Equation (FPE):</strong> Continuous state space advection-diffusion equation[cite: 1733].</li>
+                <li><strong>Stochastic Differential Equations (SDE):</strong> Describes the evolution of individual trajectories with random "kicks" [cite: 1738-1741].</li>
+            </ul>
+            
+            <h3>The Moran Model</h3>
+            <p>A classic population genetics model where population size \(N\) is fixed, and births and deaths are coupled[cite: 1776, 1777]. In a system with two alleles (A and B), the transition rate for a birth of type A is[cite: 1784]:</p>
+            \[ T(n+1|n) = \left( \frac{n}{N}\right) \left(\frac{N-n}{N-1} \right) + \mu\left(\frac{N-n}{N} \right) \]
+        </section>
+
+        <section id="adaptive">
+            <h2>III. Adaptive Dynamics</h2>
+            <p>Adaptive Dynamics deals with continuous trait spaces where phenotypic traits (like size or maturation age) vary continuously[cite: 1410, 1411].</p>
+            <p>The core of this framework is determining if a mutant strategy \(\theta_m\) can invade a resident population \(\theta_r\)[cite: 1440, 1441]. The "canonical equation" of adaptive dynamics describes the evolutionary trajectory of a trait[cite: 1475]:</p>
+            \[ \frac{d\theta}{d\tau} = g(\theta) \]
+            <p>In certain eco-evolutionary scenarios, trait substitution can drive a population to extinction, a phenomenon known as <strong>evolutionary suicide</strong>[cite: 1678].</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dr George Constable. Prepared for Mathematical Ecology, Epidemiology and Evolution.</p>
+    </footer>
+</body>
+</html>
