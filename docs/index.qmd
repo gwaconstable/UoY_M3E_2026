@@ -1,0 +1,23 @@
+# Welcome {.unnumbered}
+
+This site will contain the lecture notes for the Ecology and Epidemiology part of the "Mathematical Ecology, Epidemiology and Evolution" 
+module taught at the University of York in the Spring of 2025. The mathematics used in Mathematical Ecology and in Mathematical Epidemiology are quite similar, whereas the mathematics used in Mathematical Evolution has a different flair and that part is taught by a different lecturer: George Constable.
+
+The Mathematical Ecology and Epidemiology part is taught in three two-week blocks, with each block consisting of 6 lectures and one examples class. Between each block there will be a two-week block of Mathematical Evolution.
+
+These days it is no longer necessary to explain why it is important to apply mathematics to
+ecology or to epidemiology. We are causing global warming and the only way to predict and hence mitigate the ecological consequences is to employ mathematical models. During the Covid epidemic the public was informed daily about the latest prediction about the state of the epdidemic derived from mathematical models, often summarised in terms of the $R_0$ value. People with skills in mathematical modelling are clearly crucial in these fields and will have a great impact. Furthermore, the techniques of mathematical modelling are transferable to other domains. The skills you acquire in this module will also be useful if you want to model the economy or the climate, to mention just two.
+
+In this module we will concentrate on mathematical models that capture the essence of the real-world phenomena and strip away most of the details. Our models will be simple enough to allow for an analytical understanding of the model predictions. In practice, more complicated models are also employed, which need to be solved numerically. Only if you are taking this module as an M-level module will you be expected to perform numerical calculations. It is very wise to first start with a simple model for which you can obtain exact results before adding complications that force you to turn to numerics. That way you can test your numerics against the exact results in the regime where they are available. Also the insight from the simple models will allow you to better interpret the output from numerical models. This deeper understanding will give you a big advantage when you continue into applied research. But this understanding is also beneficial to you as a citizen who wants to take part in discussions about ecological preservation or of vaccination or similar questions of societal importance.
+
+The notes will be released after each lecture and will continue to be periodically revised. Whenever you spot something that is not quite right, please email me at [gustav.delius\@york.ac.uk](mailto:gustav.delius@york.ac.uk).
+
+Exercises are scattered throughout the notes.
+Exercises marked with a * are essential and are to be handed in. Exercises marked with a + are important and you are urged to complete them. Other exercises are optional but recommended.
+Exercises marked with an o are likely to be covered in a problems class.
+
+Your solutions to the essential exercises covered throughout each 2 week block are due on Monday at 9:00 in the week following that block, i.e., in weeks 3, 5, 7, 9 and 11. The exercises will then be discussed at a seminar in that week. You will then be very well prepared for the summative Moodle Quizzes that will be released at 14:00 on Thursdays in Weeks 3, 5, 7, 9 and 11 and are due 24 hours later (14:00 on Fridays of Weeks 3, 5, 7, 9 and 11). These quizzes should not take you long to complete because they are based on the exercises that have already been discussed at the seminar.
+
+For details of how this module will be assessed, see the assessment information on the [VLE](https://vle.york.ac.uk/ultra/courses/_111662_1/outline).
+
+In this part of the module you are allowed (and encouraged) to get as much help from AIs (like Gemini) and CASs (Computer Algebra Systems like Wolfram Alpha) as you like. Just be aware that you won't have access to an AI or to a CAS in the final exam, so make sure that you use the AI to learn things, not to let the AI do the work for you.
